@@ -13,4 +13,7 @@ Food delivery services are very popular these days. The likes of Uber Eats and G
 1. Generally, ratings are associated with individual orders.
 1. However, not every order is supposed to have a rating.
 1. Some orders may have just a restaurant rating or just a delivery rating.
-1. A restaurant rating may further have a food rating and a price rating. 
+1. A restaurant rating may further have a food rating and a price rating.
+
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/EERD%20Campus%20Eats.PNG?raw=true)
