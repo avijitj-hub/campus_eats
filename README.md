@@ -1,4 +1,4 @@
-# campus_eats
+# Campus Eats
 
 ### INTRODUCTION
 This is the final project for the course ITCS 6160 Database Systems. This project is developed by Avijit Jaiswal. It is based on the Campus Eats system. This database management system provides an optimum solution for a campus delivery database, complete with a rating system. 
