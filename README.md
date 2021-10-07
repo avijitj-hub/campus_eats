@@ -6,7 +6,7 @@ This is the final project for the course ITCS 6160 Database Systems. This projec
 ### DESCRIPTION
 Food delivery services are very popular these days. The likes of Uber Eats and GrubHub immediately come to mind. **Campus Eats** is a campus controlled food delivery service catering to students, staff and faculty of a university campus. Such a delivery service requires a well-maintained database system. This database contains a large amount of data on Students, staff, restaurants, ratings, orders etc. It has certain pre-defined business rules. This database is based on work by Team Mavericks consisting of Dhananjay Arora, Akshay Babu, Sumit Kawale and Prashant Madaan in an earlier semester and is being used with permission. The database has been developed using SQL. MySQL Workbench has been used for designing the system. SQL queries are used to design and populate the database. Stored procedures are written to calculate maximum, minimum and average ratings. Advanced queries are used to generate insights from the data. EER Diagram is designed to analyze the structure of the database. Use case diagram is designed to view the applications of the rating system.
 
-#### Business Rules
+### Business Rules
 1. Ratings will be given on a scale of 1 to 5.
 1. Only students can be drivers.
 1. There is one overall rating, one restaurant rating and one delivery rating.
@@ -16,4 +16,14 @@ Food delivery services are very popular these days. The likes of Uber Eats and G
 1. A restaurant rating may further have a food rating and a price rating.
 
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/EERD%20Campus%20Eats.PNG?raw=true)
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/EERD%20Campus%20Eats.PNG?raw=true)
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/use_case_diagram.jpg?raw=true)
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg?raw=true)
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg?raw=true)
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg?raw=true)
+
+![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg?raw=true)
