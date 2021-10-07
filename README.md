@@ -16,21 +16,21 @@ Food delivery services are very popular these days. The likes of Uber Eats and G
 1. A restaurant rating may further have a food rating and a price rating.
 
 ### Extended Entity Relationship Diagram (EERD)
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/EERD%20Campus%20Eats.PNG" height="90%" width="90%" />
-<br>   
+<br></br>   
 ### Use Case Diagram
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/use_case_diagram.jpg" height="50%" width="60%" />
-<br>
+<br></br>
 ### Stored Procedures
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg" height="45%" width="45%" />
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg" height="40%" width="45%" />
-<br>
+<br></br>
 ### Advanced Queries
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg" height="50%" width="50%"/>
-<br>
+<br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg" height="60%" width="60%"/>
