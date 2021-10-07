@@ -16,14 +16,14 @@ Food delivery services are very popular these days. The likes of Uber Eats and G
 1. A restaurant rating may further have a food rating and a price rating.
 
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/EERD%20Campus%20Eats.PNG?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/EERD%20Campus%20Eats.PNG" alt="drawing" width="200"/>
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/use_case_diagram.jpg?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/use_case_diagram.jpg">
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg">
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg">
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg">
 
-![alt text](https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg?raw=true)
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg">
