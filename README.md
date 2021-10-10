@@ -29,7 +29,7 @@ This diagram depicts the various applicable use cases for different actors in th
 
 ### Data Dictionary
 
-[Data Dictionary](https://github.com/avijitj-hub/campus_eats/blob/main/data_dictionary.md)
+View the complete [Data Dictionary] (https://github.com/avijitj-hub/campus_eats/blob/main/data_dictionary.md) here.
 
 ### Stored Procedures
 #### #1 Driver MaxMinAvg
