@@ -1,9 +1,9 @@
 # Campus Eats
 
-### INTRODUCTION
+### Introduction
 This is the final project for the course ITCS 6160 Database Systems. This project is developed by Avijit Jaiswal. It is based on the Campus Eats system. This database management system provides an optimum solution for a campus delivery database, complete with a rating system. 
 
-### DESCRIPTION
+### Description
 Food delivery services are very popular these days. The likes of Uber Eats and GrubHub immediately come to mind. **Campus Eats** is a campus controlled food delivery service catering to students, staff and faculty of a university campus. Such a delivery service requires a well-maintained database system. This database contains a large amount of data on Students, staff, restaurants, ratings, orders etc. It has certain pre-defined business rules. This database is based on work by Team Mavericks consisting of Dhananjay Arora, Akshay Babu, Sumit Kawale and Prashant Madaan in an earlier semester and is being used with permission. The database has been developed using SQL. MySQL Workbench has been used for designing the system. SQL queries are used to design and populate the database. Stored procedures are written to calculate maximum, minimum and average ratings. Advanced queries are used to generate insights from the data. EER Diagram is designed to analyze the structure of the database. Use case diagram is designed to view the applications of the rating system.
 
 ### Business Rules
@@ -29,24 +29,26 @@ This diagram depicts the various applicable use cases for different actors in th
 <br></br>
 
 ### Stored Procedures
-<br></br>
+#### #1 Driver MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg" height="45%" width="45%" />
 <br></br>
-The first stored procedure is used to calculate the maximum, minimum  and average rating of each driver. It can be very useful to find out which drivers are being liked the most by customers and so forth. This function calculates the maximum, minimum and average ratings using methods and categorizes them according to unique driver_id.
+The first stored procedure is used to calculate the maximum, minimum  and average rating of each driver. It can be very useful to find out which drivers are being liked the most by customers and so forth. It can also be used to determine if any drivers are required to undergo disciplinary action. This function calculates the maximum, minimum and average ratings using methods and categorizes them according to unique driver_id.
 
 <br></br>
+#### #2 Restaurant MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg" height="40%" width="45%" />
 <br></br>
-The second stored procedure is used to calculate the maximum, minimum and average rating for each restaurant. Again, it can be very useful to system users to find out which restaurants are performing the best and which ones not so much. This function determines the maximum, minimum and average ratings using methods and assigns them according to each restaurant's unique restaurant_id.
+The second stored procedure is used to calculate the maximum, minimum and average rating for each restaurant. Again, it can be very useful to system users to find out which restaurants are performing the best and which ones not so much. These insights can be used to determine the overall performance of restaurants. Restaurants can use it to find out where they stand with respect to their competition. This function determines the maximum, minimum and average ratings using methods and assigns them according to each restaurant's unique restaurant_id.
 <br></br>
 
 ### Advanced Queries
-<br></br>
+#### #1 Top-rated Cars
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg" height="50%" width="50%"/>
 <br></br>
-The first advanced query is used to determine which cars are preferred by the top-rated drivers. This can be useful to analyze if highly-rated drivers prefer to use cars of any particular makes.
+The first advanced query is used to determine which cars are preferred by the top-rated drivers. This can be useful to analyze if highly-rated drivers prefer to use cars of any particular makes. We have written an advanced query in SQL which employs both a nested SELECT and a sub-query as well as a condition using WHERE. To put the result together we have used a JOIN statement and finally sorted the end result in descending order.
 
 <br></br>
+#### #2 Highest-revenue Restaurants
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg" height="60%" width="60%"/>
 <br></br>
-The second advanced query is used to show ratings of the restaurants that are generating the highest revenue. It can be interesting to find out how the restaurants attracting the most business are being rated by their customers. Also, it would be interesting to see if there are any small restaurants with a small user base that are rated highly by their customers. 
+The second advanced query is used to show ratings of the restaurants that are generating the highest revenue. It can be interesting to find out how the restaurants attracting the most business are being rated by their customers. Also, it would be interesting to see if there are any small restaurants with a small user base that are rated highly by their customers. In this query we have used an aggregation function namely SUM, after employing GROUP BY command. We have again merged two different tables using JOIN statement to yield interesting insights on the data.
