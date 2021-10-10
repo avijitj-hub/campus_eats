@@ -24,31 +24,31 @@ EER is a high-level data model that incorporates the extensions to the original 
 ### Use Case Diagram
 <br></br>
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/use_case_diagram.jpg" height="50%" width="60%" />
-<br></br>
+
 This diagram depicts the various applicable use cases for different actors in the system. It is derived from the business rules and application capabilities of the system. A use case diagram is a graphical depiction of a user's possible interactions with a system. A use case diagram shows various use cases and different types of users the system has. There are four main Actors in the system namely Drivers, Restaurants, Customers and Administrators. Customers can create new orders. They can also provide ratings for drivers and restaurants. Drivers can receive new delivery orders. Each driver has an associated vehicle. Only students can be drivers. Drivers can receive punctual and politeness ratings. Restaurants can receive new orders from customers. Restaurants can assign deliveries to drivers. Restaurants can receive ratings based on the quality and price of food. Administrators can view driver and restaurant ratings. They can check order delivery status. They can ensure that the entire system is running smoothly.  
 <br></br>
 
 ### Stored Procedures
+<br></br>
 #### #1 Driver MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg" height="45%" width="45%" />
-<br></br>
 The first stored procedure is used to calculate the maximum, minimum  and average rating of each driver. It can be very useful to find out which drivers are being liked the most by customers and so forth. It can also be used to determine if any drivers are required to undergo disciplinary action. This function calculates the maximum, minimum and average ratings using methods and categorizes them according to unique driver_id.
 
 <br></br>
 #### #2 Restaurant MaxMinAvg
-<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg" height="40%" width="45%" />
 <br></br>
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg" height="40%" width="45%" />
 The second stored procedure is used to calculate the maximum, minimum and average rating for each restaurant. Again, it can be very useful to system users to find out which restaurants are performing the best and which ones not so much. These insights can be used to determine the overall performance of restaurants. Restaurants can use it to find out where they stand with respect to their competition. This function determines the maximum, minimum and average ratings using methods and assigns them according to each restaurant's unique restaurant_id.
 <br></br>
 
 ### Advanced Queries
 #### #1 Top-rated Cars
-<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg" height="50%" width="50%"/>
 <br></br>
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq1.jpg" height="50%" width="50%"/>
 The first advanced query is used to determine which cars are preferred by the top-rated drivers. This can be useful to analyze if highly-rated drivers prefer to use cars of any particular makes. We have written an advanced query in SQL which employs both a nested SELECT and a sub-query as well as a condition using WHERE. To put the result together we have used a JOIN statement and finally sorted the end result in descending order.
 
 <br></br>
 #### #2 Highest-revenue Restaurants
-<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg" height="60%" width="60%"/>
 <br></br>
+<img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/advq2.jpg" height="60%" width="60%"/>
 The second advanced query is used to show ratings of the restaurants that are generating the highest revenue. It can be interesting to find out how the restaurants attracting the most business are being rated by their customers. Also, it would be interesting to see if there are any small restaurants with a small user base that are rated highly by their customers. In this query we have used an aggregation function namely SUM, after employing GROUP BY command. We have again merged two different tables using JOIN statement to yield interesting insights on the data.
