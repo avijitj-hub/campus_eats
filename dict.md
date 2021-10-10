@@ -1,5 +1,3 @@
-\m<title>Schema Report for database: campus_eats_jaiswal</title> <style>td,th { text-align:left; vertical-align:middle; } table { border-collapse: collapse; border: 1px solid; } caption, th, td { padding: .2em .8em; border: 1px solid #000000; } caption { background: #D3D3D3; font-weight: bold; font-size: 1.1em; } th { font-weight: bold; background: #000000; color: white; } td { background: #FFFFFF; }</style>
-
 # Schema Report for database: campus_eats_jaiswal
 
 <a id="home">Table List</a>  
