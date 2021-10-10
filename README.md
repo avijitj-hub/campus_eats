@@ -28,12 +28,11 @@ This diagram depicts the various applicable use cases for different actors in th
 <br></br>
 
 ### Stored Procedures
-<br></br>
 #### #1 Driver MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg" height="45%" width="45%" />
 The first stored procedure is used to calculate the maximum, minimum  and average rating of each driver. It can be very useful to find out which drivers are being liked the most by customers and so forth. It can also be used to determine if any drivers are required to undergo disciplinary action. This function calculates the maximum, minimum and average ratings using methods and categorizes them according to unique driver_id.
-
 <br></br>
+
 #### #2 Restaurant MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_restaurant.jpg" height="40%" width="45%" />
 The second stored procedure is used to calculate the maximum, minimum and average rating for each restaurant. Again, it can be very useful to system users to find out which restaurants are performing the best and which ones not so much. These insights can be used to determine the overall performance of restaurants. Restaurants can use it to find out where they stand with respect to their competition. This function determines the maximum, minimum and average ratings using methods and assigns them according to each restaurant's unique restaurant_id.
