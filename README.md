@@ -27,6 +27,10 @@ EER is a high-level data model that incorporates the extensions to the original 
 This diagram depicts the various applicable use cases for different actors in the system. It is derived from the business rules and application capabilities of the system. A use case diagram is a graphical depiction of a user's possible interactions with a system. A use case diagram shows various use cases and different types of users the system has. There are four main Actors in the system namely Drivers, Restaurants, Customers and Administrators. Customers can create new orders. They can also provide ratings for drivers and restaurants. Drivers can receive new delivery orders. Each driver has an associated vehicle. Only students can be drivers. Drivers can receive punctual and politeness ratings. Restaurants can receive new orders from customers. Restaurants can assign deliveries to drivers. Restaurants can receive ratings based on the quality and price of food. Administrators can view driver and restaurant ratings. They can check order delivery status. They can ensure that the entire system is running smoothly.  
 <br></br>
 
+### Data Dictionary
+
+[Data Dictionary](https://github.com/avijitj-hub/campus_eats/blob/main/data_dictionary.md)
+
 ### Stored Procedures
 #### #1 Driver MaxMinAvg
 <img src="https://github.com/avijitj-hub/campus_eats/blob/main/images/sp_driver.jpg" height="45%" width="45%" />
