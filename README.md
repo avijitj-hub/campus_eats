@@ -17,6 +17,7 @@ Food delivery services are very popular these days. The likes of Uber Eats and G
 
 ### SQL Dumps
 SQL dump including queries, data, stored procedures and advanced queries: [campus_eats_jaiswal_dump.sql](https://github.com/avijitj-hub/campus_eats/blob/main/campus_eats_jaiswal_dump.sql) <br>
+<br>
 SQL dump including queries, data, stored procedures but excluding advanced queries: [campuseats_createdatabase_jaiswal.sql](https://github.com/avijitj-hub/campus_eats/blob/main/campuseats_createdatabase_jaiswal.sql)
 <br>
 ### Extended Entity Relationship Diagram (EERD)
@@ -57,4 +58,4 @@ The first advanced query is used to determine which cars are preferred by the to
 The second advanced query is used to show ratings of the restaurants that are generating the highest revenue. It can be interesting to find out how the restaurants attracting the most business are being rated by their customers. Also, it would be interesting to see if there are any small restaurants with a small user base that are rated highly by their customers. In this query we have used an aggregation function namely SUM, after employing GROUP BY command. We have again merged two different tables using JOIN statement to yield interesting insights on the data.
 
 ### Future Work
-This database management system is a useful tool for any campus-based food delivery service. This system can be further expanded and developed into a comprehensive, full-fledged application. We can create a front-end user interface and integrate this database into a complete web application. This would make it easier for different types of users to interact with the system. We can add further stored procedures to perform useful actions. We can add further advanced views to generate actionable insights from the database. This system can also be integrated into a mobile application.
+This database management system is a useful tool for any campus-based food delivery service. This system can be further expanded and developed into a comprehensive, full-fledged application. We can create a front-end user interface and integrate this database into a complete web application. A web-application would increase the user base and add functionality and covenience to the user experience. This would make it easier for different types of users to interact with the system. We can add further stored procedures to perform useful actions. For example, stored procedures for determining best-performing drivers can be added and so-forth. We can add further advanced views to generate actionable insights from the database. Business performance and system robustness can be determined using further advanced queries.
